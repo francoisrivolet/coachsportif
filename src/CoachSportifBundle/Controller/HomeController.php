@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-namespace AppBundle\Controller;
+namespace CoachSportifBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -11,14 +11,13 @@ use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 
-
 class HomeController extends Controller
 {
     /**
      * @Route("/", name="home")
      */
-	public function indexAction(Request $request)
-	{
+    public function indexAction(Request $request)
+    {
         $form = $this->createFormBuilder()
             ->add('nom', TextType::class)
             ->add('email', EmailType::class)
@@ -26,12 +25,12 @@ class HomeController extends Controller
             ->add('envoyer', SubmitType::class)
             ->getForm();
 
-        $content = $this->get('templating')->render('layout.html.twig',
+        $content = $this->get('templating')->render('CoachSportifBundle::layout.html.twig',
             array(
                 'form'=>$form->createView()
             ));
 
         return new Response($content);
 
-	}
-} 
+    }
+}

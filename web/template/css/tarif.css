@@ -14,9 +14,10 @@
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 .cd-popup {
+  display: block;
   position: fixed;
   left: 0%;
-  top: 39.5%;
+  top: 11.5%;
   height: 100%;
   width: 100%;
   opacity: 0;
@@ -37,9 +38,9 @@
   color: grey;
   position: relative;
   width: 90%;
-  max-width: 600px;
+  max-width: 71.5%;
   height: 90%;
-  max-height: 150px;
+  max-height: 30%;
   margin: 4em auto;
   background: #FFF;
   border-radius: .25em .25em .4em .4em;
@@ -160,6 +161,7 @@
 
 .tarifBenefit{
   color: white;
+  text-decoration:none;
 }
 
 .tarifHeader h1 {

@@ -15,8 +15,8 @@
 
 .cd-popup {
   position: fixed;
-  left: 50PX;
-  top: 0;
+  left: 0%;
+  top: 39.5%;
   height: 100%;
   width: 100%;
   opacity: 0;
@@ -34,11 +34,12 @@
 }
 
 .cd-popup-container {
+  color: grey;
   position: relative;
   width: 90%;
-  max-width: 700px;
+  max-width: 600px;
   height: 90%;
-  max-height: 500px;
+  max-height: 150px;
   margin: 4em auto;
   background: #FFF;
   border-radius: .25em .25em .4em .4em;
@@ -73,7 +74,7 @@
 
 
 .cd-popup-container .cd-buttons a {
-  display: block;
+  text-align: center;
   height: 20px;
   line-height: 82px;
   text-transform: uppercase;
@@ -139,8 +140,6 @@
     margin: 8em auto;
   }
 }
-
-
 .tarifAncre{
 	color: #7c8d87;
 	text-decoration: none;
@@ -157,6 +156,10 @@
 }
 .tarifHeader p {
 	color: grey;
+}
+
+.tarifBenefit{
+  color: white;
 }
 
 .tarifHeader h1 {

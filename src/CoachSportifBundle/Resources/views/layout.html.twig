@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Coach sportif à Rennes à domicile, en salle et en entreprise. Entrainements personnalisés, préparation physique, remise en forme, perte de poids.">
+    <meta name="author" content="">
+
+    <title>David Huet - Coach Sportif</title>
+    <link rel="shortcut icon" href="/Symfony/web/template/img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{{ asset('template/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="{{ asset('template/vendor/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="{{ asset('template/vendor/magnific-popup/magnific-popup.css') }}" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="{{ asset('template/css/creative.css') }}" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+<!-- navbar_bloc.html.twig -->
+<!-- Navbar -->
+{% include 'CoachSportifBundle::navbar_bloc.html.twig' %}
+
+
+<!-- header_bloc.html.twig -->
+<!-- Header -->
+{% include 'CoachSportifBundle::header_bloc.html.twig' %}
+
+
+<!-- presentation_bloc.html.twig -->
+<!-- Présentation -->
+{% include 'CoachSportifBundle::presentation_bloc.html.twig' %}
+
+
+<!-- prestations_bloc.html.twig -->
+<!-- Mes prestations -->
+{% include 'CoachSportifBundle::prestations_bloc.html.twig' %}
+
+
+<!-- portfolio_bloc.html.twig -->
+<!-- Galerie photo -->
+{% include 'CoachSportifBundle::portfolio_bloc.html.twig' %}
+
+
+<!-- tarifs_bloc.html.twig -->
+<!-- Grille Tarifaire -->
+{% include 'CoachSportifBundle::tarifs_bloc.html.twig' %}
+
+
+<!-- contact_bloc.html.twig -->
+<!-- Formulaire me contacter -->
+{% include 'CoachSportifBundle::contact_bloc.html.twig' %}
+
+
+<!-- footer_bloc.html.twig -->
+<!-- Footer -->
+{% include 'CoachSportifBundle::footer_bloc.html.twig' %}
+
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script src="{{ asset('template/vendor/jquery/jquery.min.js') }}"></script>
+<script src="{{ asset('template/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="{{ asset('template/vendor/scrollreveal/scrollreveal.min.js') }}"></script>
+<script src="{{ asset('template/vendor/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
+<script src="{{ asset('template/js/creative.min.js') }}"></script>
+
+</body>
+
+</html>

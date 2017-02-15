@@ -198,9 +198,8 @@ header .header-content .header-content-inner p {
     margin-left: auto;
     margin-right: auto;
   }
-  header .header-content .header-content-inner h1 {
-    font-size: 50px;
-  }
+
+
   header .header-content .header-content-inner p {
     font-size: 18px;
     max-width: 80%;
@@ -415,10 +414,25 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
+.navbar-default.affix-top{
+  border:none;
+}
 
+.navbar-default.affix-top .nav > li > a,
+.navbar-default.affix-top .nav > li > a:hover,
+.navbar-default.affix-top .nav > li > a:focus{
+  color : #2196f3 ;
+}
 
+/* BLOC HEADER */
 
+header .header-content .header-content-inner h1 {
+  font-size: 80px;
+}
 
+/* FIN BLOC HEADER */
+
+/* BLOC ME CONTACTER */
 
 .form-control {
   border : 2px solid #66afe9;
@@ -449,3 +463,4 @@ body {
   color:#2196F3;
 }
 
+/* FIN BLOC ME CONTACTER */

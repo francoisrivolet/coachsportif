@@ -1,51 +1,97 @@
 <section class="no-padding">
     <div class="container-fluid">
-        <div class="row no-gutter popup-gallery">
+        <div class="row no-gutter">
             <div class="col-lg-4 col-sm-6">
-                <a href="{{ asset('template/img/portfolio/fullsize/1.jpg') }}" class="portfolio-box">
+                <a href="" class="portfolio-box" data-toggle="modal" data-target="#modal_domicile">
                     <img src="{{ asset('template/img/portfolio/thumbnails/1.jpg') }}" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
-                            A Domicile
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
                             <div class="project-name">
-                                Project Name
+                                Coach à domicile
                             </div>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <a href="{{ asset('template/img/portfolio/fullsize/2.jpg') }}" class="portfolio-box">
+                <a href="" class="portfolio-box" data-toggle="modal" data-target="#modal_salle">
                     <img src="{{ asset('template/img/portfolio/thumbnails/2.jpg') }}" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
                             <div class="project-name">
-                                Project Name
+                                Coach en salle
+                            </div>
+                            <div class="project-category text-faded">
+                                Au 36 BOULEVARD
                             </div>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <a href="{{ asset('template/img/portfolio/fullsize/3.jpg') }}" class="portfolio-box">
+                <a href="" class="portfolio-box" data-toggle="modal" data-target="#modal_entreprise">
                     <img src="{{ asset('template/img/portfolio/thumbnails/3.jpg') }}" class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
                             <div class="project-name">
-                                Project Name
+                                Coach en entreprise
                             </div>
                         </div>
                     </div>
                 </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal à domicile-->
+    <div class="modal fade" id="modal_domicile" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Coach sportif à domicile</h4>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal en salle -->
+    <div class="modal fade" id="modal_salle" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Coach sportif en salle</h4>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal en entreprise -->
+    <div class="modal fade" id="modal_entreprise" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Coach sportif en entreprise</h4>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                </div>
             </div>
         </div>
     </div>

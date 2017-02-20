@@ -215,6 +215,9 @@ th {
     color: #fff;
     white-space: nowrap;
 }
+.thtest{
+  background-color : #76FF03;
+}
 tbody th {
 	background-color: #0D47A1;
 }

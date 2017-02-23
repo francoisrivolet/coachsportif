@@ -431,6 +431,12 @@ header .header-content .header-content-inner h1 {
 
 /* FIN BLOC HEADER */
 
+/* DÉBUT PRÉSENTATION */
+.presentationText{
+	margin-top : 6%;
+}
+/* FIN BLOC PRESENTATION */
+
 /* BLOC ME CONTACTER */
 
 .form-control {

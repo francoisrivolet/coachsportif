@@ -433,7 +433,10 @@ header .header-content .header-content-inner h1 {
 
 /* DÉBUT PRÉSENTATION */
 .presentationText{
-	margin-top : 6%;
+	margin-top: 3%;
+}
+.bigDavid{
+	margin-left: -2%;
 }
 /* FIN BLOC PRESENTATION */
 

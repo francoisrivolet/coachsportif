@@ -471,4 +471,36 @@ header .header-content .header-content-inner h1 {
   color:#2196F3;
 }
 
+
 /* FIN BLOC ME CONTACTER */
+
+/* BLOC ME PRESTATION */
+.bloc_titre_prestations{
+  margin-bottom: 50px;
+}
+/* FIN BLOC PRESTATION */
+
+/* MODAL PRESTATION*/
+.titre_h2_modal{
+  font-weight: bold;
+  margin-bottom:20px;
+}
+.intro_modal{
+  margin: 30px 0px;
+
+}
+.contenu_modal{
+ margin-bottom: 30px;
+}
+.contenu_modal p:first-child {
+  margin-bottom: 10px;
+}
+.fin_modal{
+
+}
+/* FIN MODAL PRESTATION */
+
+/* garder la scrollbar à l'ouverture du modal */
+.modal-open {
+  /*overflow-y: scroll;*/
+}

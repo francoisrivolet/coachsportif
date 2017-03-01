@@ -432,11 +432,19 @@ header .header-content .header-content-inner h1 {
 /* FIN BLOC HEADER */
 
 /* DÉBUT PRÉSENTATION */
+.leTitle{
+	margin-right: 22.5%;
+}
+
+.truc{
+	margin-right: 0%;
+}
+
 .presentationText{
 	margin-top: 3%;
 }
 .bigDavid{
-	margin-left: -2%;
+	margin-left: -1%;
 }
 /* FIN BLOC PRESENTATION */
 

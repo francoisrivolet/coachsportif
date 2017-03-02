@@ -433,18 +433,28 @@ header .header-content .header-content-inner h1 {
 
 /* DÉBUT PRÉSENTATION */
 .leTitle{
-	margin-right: 22.5%;
+	text-align: center;
+	/*margin-right: 22.5%;*/
 }
 
-.truc{
-	margin-right: 0%;
+.test{
+	padding-top:4%;
 }
 
 .presentationText{
-	margin-top: 3%;
+	margin-top: 5%;
 }
 .bigDavid{
 	margin-left: -1%;
+}
+
+.ajustementPara{
+	margin-bottom:13%;
+}
+
+.ajustementImage{
+	display: block;
+	margin: auto;
 }
 /* FIN BLOC PRESENTATION */
 

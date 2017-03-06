@@ -429,24 +429,28 @@ header .header-content .header-content-inner h1 {
   font-size: 80px;
 }
 
+#homeHeading {
+	 text-shadow: 1px 0 0 grey, -1px 0 0 grey, 0 1px 0 grey, 0 -1px 0 grey, 1px 1px grey, -1px -1px 0 grey, 1px -1px 0 grey, -1px 1px 0 grey;
+}
+
+#coachH2 {
+	 text-shadow: 0.5px 0 0 grey, -0.5px 0 0 grey, 0 0.5px 0 grey, 0 -0.5px 0 grey, 0.5px 0.5px grey, -0.5px -0.5px 0 grey, 0.5px -0.5px 0 grey, -0.5px 0.5px 0 grey;
+}
+
+.coachSportifText {
+	font-size: 35px;
+	margin-top: 20px;
+	margin-bottom: 85px;
+}
 /* FIN BLOC HEADER */
 
 /* DÉBUT PRÉSENTATION */
 .leTitle{
 	text-align: center;
-	/*margin-right: 22.5%;*/
 }
 
-.test{
-}
-
-.presentationText{
-}
-.bigDavid{
-	margin-left: -1%;
-}
-
-.ajustementPara{
+#presentation{
+	padding: 0px;
 }
 
 .ajustementImage{

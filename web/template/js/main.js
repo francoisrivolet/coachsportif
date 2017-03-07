@@ -18,4 +18,10 @@ jQuery(document).ready(function($){
     		$('.cd-popup').removeClass('is-visible');
 	    }
     });
+
+   /*Pour enlever le padding auto lors de l'ouverture de modal
+   $(document).on('click','.modal-open',function(){
+    	$('body').css('padding-right',0);
+	});
+	*/
 });

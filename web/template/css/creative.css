@@ -445,8 +445,18 @@ header .header-content .header-content-inner h1 {
 /* FIN BLOC HEADER */
 
 /* DÉBUT PRÉSENTATION */
-.leTitle{
-	text-align: center;
+
+#presentation{
+  padding: 50px 0px 0px;
+}
+
+.presentation_title{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.presentation_text{
+  padding-top: 30px;
+  text-align: left;
 }
 
 
@@ -523,12 +533,9 @@ header .header-content .header-content-inner h1 {
 }
 /* FIN MODAL PRESTATION */
 
-/* garder la scrollbar à l'ouverture du modal */
-.modal-open {
-  /*overflow-y: scroll;*/
-}
 
-
-#presentation{
-  padding: 50px 0px 0px;
+/*
+.modal-open{
+  overflow-y: scroll;
 }
+*/

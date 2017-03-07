@@ -4,28 +4,38 @@
 
             <H1 class="titre_contact">Me Contacter </H1>
 
-            {{ form_start(form, {'attr': {'class': 'form-horizontal'}}) }}
-            {{ form_errors(form) }}
+            <div class="contact_informations col-sm-12 col-md-6">
+                    <h4>David Huet - Coach sportif</h4>
+                    <p>sur rennes et ses environs</p>
+                    <h4>Téléphone :</h4>
+                    <p>06 61 97 86 10</p>
+                    <h4>Email :</h4>
+                    <p>huet.david@hotmail.fr</p>
+            </div>
+
+            <div class="contact_formulaire col-sm-12 col-md-6">
+                {{ form_start(form, {'attr': {'class': 'form-horizontal'}}) }}
+                {{ form_errors(form) }}
 
                 <div class="form-group form-group-lg">
                     {{ form_errors(form.nom) }}
-                        <div class="col-sm-offset-3 col-sm-6" >
-                            {{ form_widget(form.nom, {'attr': {'class': 'form-control','placeholder': 'Nom & Prénom'}}) }}
-                        </div>
+                    <div class="" >
+                        {{ form_widget(form.nom, {'attr': {'class': 'form-control','placeholder': 'Nom & Prénom'}}) }}
+                    </div>
                 </div>
 
                 <div class="form-group form-group-lg">
                     {{ form_errors(form.email) }}
-                        <div class="col-sm-offset-3 col-sm-6" >
-                            {{ form_widget(form.email, {'attr': {'class': 'form-control','placeholder': 'Email'}}) }}
-                        </div>
+                    <div class="" >
+                        {{ form_widget(form.email, {'attr': {'class': 'form-control','placeholder': 'Email'}}) }}
+                    </div>
                 </div>
 
                 <div class="form-group form-group-lg">
                     {{ form_errors(form.message) }}
-                        <div class="col-sm-offset-3 col-sm-6" >
-                            {{ form_widget(form.message, {'attr': {'class': 'form-control custom-textarea','placeholder': 'Votre message'}}) }}
-                        </div>
+                    <div class="" >
+                        {{ form_widget(form.message, {'attr': {'class': 'form-control custom-textarea','placeholder': 'Votre message'}}) }}
+                    </div>
                 </div>
 
                 <div class="form-group form-group-lg">
@@ -34,7 +44,10 @@
                     </div>
                 </div>
 
-            {{ form_end(form) }}
+                {{ form_end(form) }}
+            </div>
+
+
 
 
         </div>

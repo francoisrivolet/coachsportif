@@ -43,15 +43,6 @@
 	opacity: 0.7;
 	padding: 0 0 0.6em 0.1em;
 }
-
-.component {
-	line-height: 1.5em;
-	margin: 0 auto;
-	padding: 2em 0 3em;
-	width: 90%;
-	max-width: 1000px;
-	overflow: hidden;
-}
 .component .filler {
 	font-family: "Blokk", Arial, sans-serif;
 	color: #d3d3d3;
@@ -64,6 +55,7 @@ table {
     background: #fff;
 }
 td, th {
+    color: black;
     padding: 0.75em 1.5em;
     text-align: center;
 }
@@ -79,30 +71,5 @@ th {
     font-weight: bold;
     color: #fff;
     white-space: nowrap;
-}
-
-.col1{
-    background-color: #1565C0;
-    font-weight: bold;
-    color: #fff;
-    padding: 4% 0;
-    margin: 0 -5.15% 0 -5.15%;
-    white-space: nowrap;
-}
-
-.headers{
-    background-color: #1565C0;
-    font-weight: bold;
-    color: #fff;
-    padding: 4% 0;
-    margin: 0 -5.15% 0 -5.15%;
-    white-space: nowrap;
-}
-
-.tete{
-  background-color: white;
-  color: black;
-    padding: 4% 0;
-    margin: 0 -5.15% 0 -5.15%;
 }
 

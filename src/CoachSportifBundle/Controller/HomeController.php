@@ -30,6 +30,38 @@ class HomeController extends Controller
                 'form'=>$form->createView()
             ));
 
+        $form->handleRequest($request);
+
+        if($request->isMethod('POST') && $form->isValid())
+        {
+            $infoFormulaire = $form->getData();
+            $nom = $infoFormulaire['nom'];
+            $email = $infoFormulaire['email'];
+            $message = $infoFormulaire['message'];
+            $date = date('d-m-Y');
+
+            $mail = \Swift_Message::newInstance()
+                ->setSubject('[davidhuet-coachsportif.fr] - '.$nom.' '.$date)
+                ->setFrom('francois.rivolet@imie-rennes.fr')
+                ->setTo('francois.rivolet@imie-rennes.fr')
+                ->setBody(
+                    $this->renderView(
+                        'CoachSportifBundle::email.html.twig',
+                        array('nom' => $nom,
+                            'email' => $email,
+                            'message' => $message,
+                            'date' => $date
+                        )
+                    ),
+                    'text/html'
+                );
+
+            $this->get('mailer')->send($mail);
+
+            $request->getSession()->getFlashBag()->add('success', 'REUSSI');
+            return new Response($content);
+        }
+
         return new Response($content);
 
     }

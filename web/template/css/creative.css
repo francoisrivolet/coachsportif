@@ -531,8 +531,19 @@ header .header-content .header-content-inner h1 {
 /* FIN MODAL PRESTATION */
 
 
-/*
-.modal-open{
-  overflow-y: scroll;
+/* FOOTER*/
+.bloc_footer{
+  padding: 20px 0px 10px;
 }
-*/
+
+.bloc_footer_partenaires{
+  padding: 5px;
+}
+
+.bloc_footer_partenaires p{
+  padding: 0px 10px;
+  margin-bottom: 0px;
+}
+
+
+/* FIN FOOTER*/

@@ -511,6 +511,20 @@ header .header-content .header-content-inner h1 {
 /* FIN BLOC PRESTATION */
 
 /* MODAL PRESTATION*/
+.modal-title,
+.modal-footer .btn{
+  color: #F05F40;
+}
+.modal-footer .btn:hover{
+  background-color: #F05F40;
+  border-color: #F05F40 ;
+  color: white;
+}
+
+.modal-body div strong{
+  color: #2196F3;
+}
+
 .titre_h2_modal{
   font-weight: bold;
   margin-bottom:20px;

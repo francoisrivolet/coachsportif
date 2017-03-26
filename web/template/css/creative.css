@@ -435,6 +435,7 @@ header .header-content .header-content-inner h1 {
 
 #coachH2 {
 	 text-shadow: 0.5px 0 0 grey, -0.5px 0 0 grey, 0 0.5px 0 grey, 0 -0.5px 0 grey, 0.5px 0.5px grey, -0.5px -0.5px 0 grey, 0.5px -0.5px 0 grey, -0.5px 0.5px 0 grey;
+   font-size: 55px;
 }
 
 .coachSportifText {

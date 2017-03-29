@@ -42,7 +42,7 @@ class HomeController extends Controller
 
             $mail = \Swift_Message::newInstance()
                 ->setSubject('[davidhuet-coachsportif.fr] - '.$nom.' '.$date)
-                ->setFrom('francois.rivolet@imie-rennes.fr')
+                ->setFrom($email)
                 ->setTo('francois.rivolet@imie-rennes.fr')
                 ->setBody(
                     $this->renderView(

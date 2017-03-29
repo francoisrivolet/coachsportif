@@ -228,18 +228,13 @@ header .header-content .header-content-inner p {
   margin: 0 auto;
 }
 .portfolio-box .portfolio-box-caption {
-  color: white;
-  opacity: 0;
+  color: #FFFFFF;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
   width: 100%;
   height: 100%;
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   width: 100%;
@@ -257,9 +252,12 @@ header .header-content .header-content-inner p {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
+  text-shadow: 0 0 7px rgba(0,0,0, 0.5);
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
+  font-weight: 600;
+  text-shadow: 0 0 7px rgba(0,0,0, 0.5);
 }
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
@@ -421,6 +419,7 @@ body {
 .navbar-default.affix-top .nav > li > a:hover,
 .navbar-default.affix-top .nav > li > a:focus{
   color : #2196f3 ;
+  text-shadow: 0 0 1px rgba(0,0,0, 0.3);
 }
 
 /* BLOC HEADER */
@@ -430,12 +429,12 @@ header .header-content .header-content-inner h1 {
 }
 
 #homeHeading {
-	 text-shadow: 1px 0 0 grey, -1px 0 0 grey, 0 1px 0 grey, 0 -1px 0 grey, 1px 1px grey, -1px -1px 0 grey, 1px -1px 0 grey, -1px 1px 0 grey;
+  text-shadow: 0 0 7px rgba(0,0,0, 0.8);
 }
 
 #coachH2 {
-	 text-shadow: 0.5px 0 0 grey, -0.5px 0 0 grey, 0 0.5px 0 grey, 0 -0.5px 0 grey, 0.5px 0.5px grey, -0.5px -0.5px 0 grey, 0.5px -0.5px 0 grey, -0.5px 0.5px 0 grey;
-   font-size: 55px;
+  text-shadow: 0 0 7px rgba(0,0,0, 0.8);
+  font-size: 55px;
 }
 
 .coachSportifText {
@@ -509,6 +508,10 @@ header .header-content .header-content-inner h1 {
   margin-bottom: 50px;
 }
 
+.project-text-faded {
+  color: white;
+}
+
 /* FIN BLOC PRESTATION */
 
 /* MODAL PRESTATION*/
@@ -541,24 +544,7 @@ header .header-content .header-content-inner h1 {
   margin-bottom: 10px;
 }
 
-.modal {
-  text-align: center;
-  padding: 0!important;
-}
 
-.modal:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -4px;
-}
-
-.modal-dialog {
-  display: inline-block;
-  text-align: left;
-  vertical-align: middle;
-}
 /* FIN MODAL PRESTATION */
 
 
